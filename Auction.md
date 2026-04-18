@@ -111,6 +111,18 @@ contract EnglishAuction {
 - Participants can buy by depositing ETH greater than the current price computed by the smart contract.
 - Auction ends when a buyer buys the NFT.
 
+## Used in:
+- NFT mints
+- liquidation auctions (MakerDAO-style)
+```
+Price formula:
+P(t)=P(o)−kt
+Where:
+P(o) = starting price
+k = decay rate
+t = time elapsed  
+```
+## Code:
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
