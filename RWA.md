@@ -14,5 +14,14 @@
 
  2. Backed Asset:
 - Off-Chain Collateral Based (more powerful & imp)
-- Deposits Tesla stock for example in our paper trading accounts as collateral then use chainlink function to check for collateral
-  then, mint the RWA token eg: rTesla
+- Deposits Tesla stock for example in our paper trading accounts as collateral then use chainlink
+  function to check for collateral then, mint the RWA token eg: rTesla
+
+ <img width="1771" height="982" alt="Screenshot from 2026-05-15 20-54-46" src="https://github.com/user-attachments/assets/92d4c408-1fbb-4429-b770-19343988bc1c" />
+
+## Architecture: 
+The architecture is pretty much same as stable coins. Just need to use chainlink functions to
+check off-chain trading collateral.
+
+we use chainlink functions for this that executes our off chain api calls
+
