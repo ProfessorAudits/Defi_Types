@@ -1,6 +1,6 @@
 # Crypto LaunchPad
-A crypto launchpad is a crowdfunding platform that helps early-stage blockchain projects 
-raise capital by selling tokens to retail investors before public market exchange listings.
+A crypto launchpad is a crowdfunding platform that helps early-stage blockchain 
+projectsraise capital by selling tokens to retail investors before public market exchange listings.
 
 ## LaunchPad Types/Common Models 
 1. Fixed Price IDO:
