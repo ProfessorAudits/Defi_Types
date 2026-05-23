@@ -33,3 +33,25 @@ Token pools can be self managed or ccip managed (using CCT cross-chain tokens)
 
 ## Cross-chain Messaging :
 The transfer of data i.e messages across chains
+
+## Cross Chain Token (CCT Standard):
+The Cross-Chain Token (CCT) standard is a way to make a token exist natively across multiple 
+blockchains while keeping one unified supply and secure interoperability.
+Instead of random third-party bridges, the token issuer/contract controls the cross-chain behavior.
+
+
+```solidity
+User
+  ↓
+Token Pool Contract
+  ↓
+CCIP Router
+  ↓
+Chainlink Network verifies message
+  ↓
+Destination CCIP Router
+  ↓
+Destination Token Pool
+  ↓
+Mint / Unlock Tokens
+```
