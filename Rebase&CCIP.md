@@ -39,6 +39,8 @@ The Cross-Chain Token (CCT) standard is a way to make a token exist natively acr
 blockchains while keeping one unified supply and secure interoperability.
 Instead of random third-party bridges, the token issuer/contract controls the cross-chain behavior.
 
+-  Circle uses CCTP which is a way to move usdc across chains. we can use it in our contracts
+    to transfer usdc liquidity across different chains.
 
 ```solidity
 User
